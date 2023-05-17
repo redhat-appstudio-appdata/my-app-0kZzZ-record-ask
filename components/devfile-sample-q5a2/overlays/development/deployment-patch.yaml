@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-q5a2
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/ewinchel-tenant/my-app/devfile-sample-q5a2@sha256:d1135d0351668056503383fd6d66548615daaf6a4b96a099d7321634e11fcada
+        name: my-nodejs
+        resources: {}
+status: {}
