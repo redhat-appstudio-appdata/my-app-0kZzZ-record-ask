@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-q5a2
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/ewinchel-tenant/my-app/devfile-sample-q5a2@sha256:eb2329c6a7b4e69e4514aed18875056c5f6236577f1c22c33d100b48880c44a9
+      - image: quay.io/redhat-user-workloads/ewinchel-tenant/my-app/devfile-sample-q5a2@sha256:d1135d0351668056503383fd6d66548615daaf6a4b96a099d7321634e11fcada
         name: my-nodejs
         ports:
         - containerPort: 3001
